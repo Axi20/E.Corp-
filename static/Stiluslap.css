@@ -1,0 +1,328 @@
+body {
+        font-size: 18px;
+        background-color: rgba(113, 111, 119, 0.548);
+        padding-bottom:20px ;
+     }
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                                                   MAIN HTML                                                               */                                                                 
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Oldalsó menü */
+.menu {
+        height: 100%; 
+        width: 190px; 
+        position: fixed;
+        z-index: 1; 
+        top: 0; 
+        left: 0;
+        background-color: #111; 
+        overflow-x: hidden; 
+        padding-top: 20px;
+     }
+
+/* A menu linkjei */
+.menu a {
+         padding: 6px 8px 6px 16px;
+         text-decoration: none;
+         font-size: 25px;
+         color: #818181;
+         display: block;
+        }
+
+/* A szín megváltoztatása az egérrel való érintkezéskor */
+.menu a:hover {
+                color: #f1f1f1;
+              }
+
+/* Oldal tartalma */
+.main {
+        margin-left: 160px; 
+        padding: 0px 10px;
+      }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+                                    .menu {padding-top: 15px;}
+                                    .menu a {font-size: 18px;}
+                                    }
+
+nav {
+        background-color:gainsboro;
+        padding: 5px 15px 4px 88px;
+        margin-left: -54px;
+        margin-right:-21px;
+        display: block;
+        position:sticky;
+        
+    
+    }
+nav a {
+        color:#000000;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 11px;
+      }
+nav a:hover {
+                color: #f1f1f1;
+                text-decoration: none;
+            }
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                                                  Homepage HTML                                                              */                                                                 
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+.idezet {
+            text-align: center;
+            font-family: Copperplate, Papyrus, fantasy;
+            padding-top: 20px; 
+        }
+
+.text-center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%;
+                padding-top: 20px;
+            }
+
+.text-center_2 {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+                padding-top: 20px;
+               }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                                                  MUNKATÁRSAINK HTML                                                         */                                                                 
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.colleagues {
+                text-align: center;
+                padding-top: 20px;
+            }
+
+.tablazat {
+            padding-left: 44px;
+            margin-top: 30px;
+            font-size: 25px;
+            text-align: center;
+            padding-right: 30px;
+          }
+
+hr {
+    border: 2px solid #111;
+   }
+
+.intro {
+        padding-left: 44px;
+        margin-top: 30px;
+        font-size: 20px;
+        text-align: left;
+       }
+
+.workers {
+            padding-top: 30px;
+            padding-left: 44px;
+            text-align: center;
+         }
+
+.felsorolas {
+                text-align: center;
+            }
+
+li {
+        text-align: center;
+    }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*                                                                  About us HTML                                                                */                                                                 
+/*--------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.about {
+            text-align: center;
+            padding-top: 20px; 
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+.aboutus {
+            text-align: center;
+            padding-top: 20px;
+            padding-left: 44px;
+            padding-right: 30px;
+         }
+
+.aboutus2 {
+            text-align: justify;
+            padding-top: 30px;
+            padding-left: 23px;
+            text-indent: 10px;
+
+          }
+
+.kep2 {
+        padding-top: 30px;
+        width: 100%;
+        padding-right: 30px;
+
+      }
+
+.kep3 {
+        padding-top: 30px;
+        width: 100%;
+        padding-right: 30px;
+      }
+
+.divisions {
+            font-size: 25;
+            font-weight: bold;
+           }
+
+.divs {
+        text-align: left;
+      }
+
+.focim {
+        text-align: center;
+        text-decoration: underline;
+       }
+
+
+
+
+
+.focim2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 28px;
+}
+
+
+.serv {
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 0px;
+    padding-right: 0;
+}
+
+.serv2 {
+  text-indent: 10px;
+  text-align: justify;
+}
+
+.bev {
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: -40px;
+    padding-left: 44px;
+    padding-left: 44px;
+    border-bottom: 6px solid #111;
+    background-color:gainsboro;
+}
+
+.text-center_3 {
+    width: 103.6%;
+    padding-top: 30px; 
+  }                
+
+.focim3 {
+  padding-top: 30px;
+}
+
+.kep4 {
+  width: 120%;
+}
+
+.felsorolas2 {
+  text-align: left;
+}
+
+.contact {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.messages {
+  padding:30px;
+}
+
+
+
+.rows {
+  height: 100vh
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: calc(1.5em + .75rem + 2px);
+  padding: .575rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+  
+}
+
+.card {
+  padding: 20px;
+  background-color:gainsboro;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #f9a826;
+  outline: 0;
+  box-shadow: none
+}
+
+.border-rad {
+ 
+ 
+  color: #fff;
+  background-color: #f9a826;
+  border-color: #f9a826
+}
+
+.border-rad:hover {
+  background-color: #f9a826;
+  border-color: #f9a826
+}
+
+.sub {
+  text-align: center;
+}
+
+.bts {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #fff;
+  border-radius: 28px;
+  
+}
+
+
+
+
+
+
+
